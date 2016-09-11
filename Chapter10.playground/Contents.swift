@@ -54,7 +54,13 @@ let album = ["Dieat Roast Beef": 268,
 let watchedMovies = Array(movieRatings.keys)
 
 
-//Silver challenge
+//Silver challenge, what I did my own
 var state = ["Oklahoma": ["pawne": [73015,73022,73035,73050,74025], "payne": [74025,74068,74069,74029,74063], "Moore":[75263, 76987, 78457, 789504, 75869]]]
 print(state)
+
+//Practiicing what I found on lecture notes
+var stateCounties = [String: Array<Int>]()
+stateCounties["pawne"] = [73015,73022,73035,73050,74025]
+stateCounties["payne"] = [74025,74068,74069,74029,74063]
+stateCounties["Moore"] = [75263,76987,78457,78904,75869]
 
